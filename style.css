@@ -1,0 +1,123 @@
+body {
+	background-color: rgb(6,7,28);
+    color: white;
+    font-family: Helvetica;
+    font-weight: bold;
+    font-size: 16px;
+}
+
+h1,h2,h3 {
+    font-family: 'Oswald', sans-serif;
+}
+
+h1 {
+	color: white;
+    font-size: 32px;
+    line-height: 2;
+    letter-spacing: 3px;
+    text-align: center;
+}
+
+h2 {
+	color: rgb(168,26,30)
+    font-size: 24px;
+    line-height: 1.5;
+    text-align: center;
+}
+.title2{
+    color: rgb(168,26,30);
+    font-size: 24px;
+    line-height: 1.5;
+    text-align: center;
+}
+
+
+p {
+	text-align: justify;
+}
+
+a {
+    text-decoration: none;
+    color: white;
+    transition: color 0.2s ease;
+    font-size: 50px;
+    padding: 0px 20px;
+    list-style: none;
+}
+a:hover {
+    color: rgb(168,26,30);
+}
+
+.img1 {
+  border-radius: 50%;
+  width: 160px;
+  border: 5px solid rgb(168,26,30);
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+}
+
+.img2 {
+    border-radius: 8px;
+    border: 3px solid rgb(168,26,30);
+    width: 200px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+}
+.container {
+  width: 600px;
+  margin: 40px auto;
+}
+
+.card-white {
+    background: rgb(6,7,28);
+    border-radius: 20px;
+    width: 500px;
+    margin: 30px auto;
+    padding: 40px;
+}
+
+.card-shadowed {
+    background: rgb(24,33,93);
+    border-radius: 20px;
+    box-shadow: 0 10px 30px rgba(0,0,0,.1);
+    width: 450px;
+    margin: 20px auto;
+    padding: 40px;
+}
+.titlebox{
+    background: white;
+    border-radius: 10px;
+}
+
+.list-inlined{
+    list-style: none;
+    padding-top: 50px;
+    display: inline;
+    list-style: center;
+    padding-left: 65px;
+}
+
+.tex1{
+    font-size: 20px;
+    text-align: center;
+}
+
+@media (max-width: 960px) {
+  .container {
+    width: 700px;
+  }
+}
+@media (max-width: 720px) {
+  .container {
+    width: 500px;
+  }
+}
+@media (max-width: 540px) {
+  .container {
+    width: 300px;
+  }
+}
